@@ -1,0 +1,2 @@
+include *.rst
+recursive-include izi_invoices/templates *.html
