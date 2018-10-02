@@ -9,10 +9,10 @@ test_requires = [
 setup(
     name='django-izi-invoices',
     version='0.1',
-    url='https://github.com/izio/django-izi-invoices',
-    author='Metaclass Team',
-    author_email='sasha@metaclass.co',
-    description='Invoices generation for Django IZI',
+    url='https://github.com/izi-ecommerce/django-izi-invoices',
+    author='Daniel Do',
+    author_email='dotiendiep@gmail.com',
+    description='Invoices generation for IZI Core',
     long_description=open('README.rst').read(),
     license='BSD',
     packages=find_packages(exclude=['sandbox*', 'tests*']),
@@ -34,7 +34,7 @@ setup(
         'phonenumbers',
         'pillow==5.0.0',
         'django>=1.11,<2.2',
-        'django-izi>=1.6',
+        'izi-core>=1.6',
         'django-phonenumber-field>=2.0,<2.1',
     ],
     extras_require={
